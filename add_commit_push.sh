@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./script/add.sh
-./script/commit.sh $1
-./script/push.sh
+./script/git/add.sh
+./script/git/commit.sh $1
+./script/git/push.sh
