@@ -3,15 +3,12 @@
 # Couleurs
 RED='\033[0;31m'
 GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-BLUE='\033[1;34m'
 NC='\033[0m' # Pas de couleur
 
-# Exécution du commit
 git add .
 
 if [ $? -ne 0 ]; then
-  echo -e "${RED}Erreur lors de l'exécution de la commande git commit.${NC}"
+  echo -e "${RED}Erreur lors de l'exécution de la commande git add.${NC}"
   exit 1
 fi
 
