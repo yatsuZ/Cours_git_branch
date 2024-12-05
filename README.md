@@ -14,5 +14,3 @@ Nous verrons aussi les opperateurs bash.
 
 
 ### Outil
-
-petit test
