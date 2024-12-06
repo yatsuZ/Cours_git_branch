@@ -46,6 +46,9 @@ nous verrons le focntionement des commande majortierment et dautre aussi optione
 - revert
 - rebase avec -i
 - merge
+- clone
+- fetch
+- pull avec --rebase
 ### remmot
 
 ### add
