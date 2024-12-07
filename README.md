@@ -25,6 +25,10 @@ Nous verrons aussi les opperateurs bash.
 3 directories, 8 files
 ```
 
+## Exercice 
+
+j'ai utilise ce site pour apprendre et mexerce a manipuler les branchement [learningitbranch](https://learngitbranching.js.org/?locale=fr_FR&NODEMO=)
+
 ## Explication des opperateur bash
 
 explication des operrateur bash
@@ -38,7 +42,7 @@ explication des operrateur bash
 explication de la commande git explique c'est quoi HEAD
 
 nous verrons le focntionement des commande majortierment et dautre aussi optionelle :
-- commit
+- commit et --amend
 - branch
 - checkout
 - cherry-pick
@@ -49,6 +53,10 @@ nous verrons le focntionement des commande majortierment et dautre aussi optione
 - clone
 - fetch
 - pull avec --rebase
+- describ
+- bisect
+- tag
+- 
 ### remmot
 
 ### add
