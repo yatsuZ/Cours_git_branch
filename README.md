@@ -1,6 +1,7 @@
 # Cours Git : Branches
 
 - [Cours Git : Branches](#cours-git--branches)
+  - [TO DO](#to-do)
   - [Objectif](#objectif)
   - [Arboraissance](#arboraissance)
   - [Exercice](#exercice)
@@ -15,6 +16,14 @@
   - [Extension](#extension)
   - [Apllication](#apllication)
 
+
+## TO DO
+
+| A faire |
+|---------|
+|faire les exercice pour manipuler les branhcment|
+| documenter chaque command een cree des fichier|
+|faire plusieur branchement de ce repos pour voir a quoi sa ressemble en cas pratique|
 
 ## Objectif
 
@@ -41,7 +50,7 @@ Nous verrons aussi les opperateurs bash.
 3 directories, 8 files
 ```
 
-## Exercice 
+## Exercice
 
 j'ai utilise ce site pour apprendre et mexerce a manipuler les branchement [learningitbranch](https://learngitbranching.js.org/?locale=fr_FR&NODEMO=)
 
@@ -72,7 +81,7 @@ nous verrons le focntionement des commande majortierment et dautre aussi optione
 - describ
 - bisect
 - tag
-
+- push avec les orgine source:destiner
 ### remmot
 
 ### add
