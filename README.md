@@ -56,7 +56,7 @@ nous verrons le focntionement des commande majortierment et dautre aussi optione
 - describ
 - bisect
 - tag
-- 
+
 ### remmot
 
 ### add
