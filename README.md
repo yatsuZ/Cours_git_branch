@@ -1,5 +1,21 @@
 # Cours Git : Branches
 
+- [Cours Git : Branches](#cours-git--branches)
+  - [Objectif](#objectif)
+  - [Arboraissance](#arboraissance)
+  - [Exercice](#exercice)
+  - [Explication des opperateur bash](#explication-des-opperateur-bash)
+    - [not equal](#not-equal)
+    - [zero](#zero)
+  - [Explication des commande git](#explication-des-commande-git)
+    - [remmot](#remmot)
+    - [add](#add)
+    - [commit](#commit)
+  - [Outil](#outil)
+  - [Extension](#extension)
+  - [Apllication](#apllication)
+
+
 ## Objectif
 
 Ce dépôt a pour but d'apprendre à manipuler Git, en particulier la gestion des branches.  
