@@ -3,113 +3,81 @@
 - [Cours Git : Branches](#cours-git--branches)
   - [TO DO](#to-do)
   - [Objectif](#objectif)
-  - [Arboraissance](#arboraissance)
-  - [Exercice](#exercice)
-  - [Explication des opperateur bash](#explication-des-opperateur-bash)
-    - [not equal](#not-equal)
-    - [zero](#zero)
-  - [Explication des commande git](#explication-des-commande-git)
-    - [remmot](#remmot)
-    - [add](#add)
-    - [commit](#commit)
-  - [Outil](#outil)
-  - [Extension](#extension)
-  - [Apllication](#apllication)
-
+  - [Arborescence](#arborescence)
+    - [Explication](#explication)
+    - [Exercice](#exercice)
+  - [Les commandes Git](#les-commandes-git)
+  - [Les opérateurs Bash](#les-opérateurs-bash)
+  - [Outils pour mieux manipuler les dépôts Git](#outils-pour-mieux-manipuler-les-dépôts-git)
+  - [Conclusion](#conclusion)
 
 ## TO DO
 
-| A faire |
-|---------|
-|faire les exercice pour manipuler les branhcment|
-| documenter chaque command een cree des fichier|
-|faire plusieur branchement de ce repos pour voir a quoi sa ressemble en cas pratique|
+| À faire                                                                           |
+| --------------------------------------------------------------------------------- |
+| Faire les exercices pour manipuler les branchements                               |
+| Documenter chaque commande en créant des fichiers                                 |
+| Créer plusieurs branches dans ce dépôt pour observer leur utilisation en pratique |
 
 ## Objectif
 
 Ce dépôt a pour but d'apprendre à manipuler Git, en particulier la gestion des branches.  
 Nous explorerons les différentes commandes Git, leur utilisation et leur utilité.
 
-Nous verrons aussi les opperateurs bash.
+Nous verrons aussi les opérateurs Bash.
 
-## Arboraissance
+## Arborescence
+
+Voici l'arborescence des fichiers dans ce dépôt :
 
 ```bash
 ➜  Cours_git_branch git:(main) ✗ tree
 .
+├── Git_cmd.md
+├── Operrateur_bash.md
+├── Outil_pour_git.md
 ├── README.md
 ├── add_commit_push.sh
 ├── img
 │   └── ["image pour illustration"]
 └── script
     ├── git
-    │   └── ["script concernant les commande git"]
-    └── les opperateur bash
-        └── ["opperateur bash utilise dans le dossier git"]
-
-3 directories, 8 files
+    │   └── ["scripts concernant les commandes git"]
+    └── les_opperateur_bash
+        └── ["scripts de démonstration des opérateurs Bash utilisés dans le contexte de Git"]
 ```
 
-## Exercice
+### Explication
 
-j'ai utilise ce site pour apprendre et mexerce a manipuler les branchement [learningitbranch](https://learngitbranching.js.org/?locale=fr_FR&NODEMO=)
+- **Le dossier `img`** : contient des images d'illustration.
+- **Le dossier `script`** : contient des scripts :
+  - `git` : des scripts concernant les commandes Git.
+  - `les_opperateur_bash` : des scripts de démonstration des opérateurs Bash utilisés dans le contexte de Git.
 
-## Explication des opperateur bash
+### Exercice
 
-explication des operrateur bash
+J'ai utilisé ce site pour apprendre et m'exercer à manipuler les branchements : [learningitbranch](https://learngitbranching.js.org/?locale=fr_FR\&NODEMO=).
 
-### not equal
+## Les commandes Git
 
-### zero
+Pour voir les principales commandes Git et leur fonctionnement, consultez [Les commandes Git](./Git_cmd.md).
 
-## Explication des commande git
+## Les opérateurs Bash
 
-explication de la commande git explique c'est quoi HEAD
+Pour en savoir plus sur ces opérateurs, leur utilité et ce que j'utilise, consultez [Opérateurs Bash](./Operrateur_bash.md).
 
-nous verrons le focntionement des commande majortierment et dautre aussi optionelle :
-- commit et --amend
-- branch
-- checkout
-- cherry-pick
-- reset
-- revert
-- rebase avec -i
-- merge
-- clone
-- fetch
-- pull avec --rebase
-- describ
-- bisect
-- tag
-- push avec les orgine source:destiner
-### remmot
+## Outils pour mieux manipuler les dépôts Git
 
-### add
+Pour mieux manipuler ces dépôts (branche, commit, etc.), il existe des outils dont j'aborde l'utilisation dans ce fichier : [Outil pour Git](./Outil_pour_git.md).
 
-### commit
+## Conclusion
 
+Merci d'avoir pris le temps de lire ce document ! Si vous souhaitez approfondir vos connaissances sur Git, vous pouvez consulter la [documentation officielle Git](https://git-scm.com/doc) et d'autres ressources utiles. Quant à moi, je vais m'amuser à créer plusieurs branchements et expérimenter encore plus avec Git ! 😄
 
+N'oubliez pas que la pratique est essentielle pour bien assimiler ces outils. N'hésitez pas à expérimenter avec les commandes et à créer plusieurs branches pour mieux comprendre leur fonctionnement dans des situations réelles.
 
+Pour aller plus loin, voici quelques ressources supplémentaires :
+- [Documentation officielle Git](https://git-scm.com/doc)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
 
-
-## Outil
-
-Les principaux outil pour manipuler les branchement et commit comme ceci
-
-![illustation des branch](./img/illustation_des_branch.png)
-
-## Extension
-
-Il existe une extensions git lens qui est tres performant mais que je trouve trop intimident 
-et git graph qui a laire beaucoup plus simple de le prendre en main etpermet de visualise en graph
-
-pour moi git graph fais le café alors que git lens et trop lourd.
-
-## Apllication
-
-Il y a sublime merge et fork qui laire detre pas mal etemp donné que mes camarade utilise sublime texte je vais donc teste sublime merge 
-japrecie pas trop car pour une majorité il faut payet une lisence *
-
-ya tig qui est vraiment pas mal si on aime code avec vim car cest sur le terminal et basique vraiment super
-Jai teste sublime merge jaime pas car faut avoir une licens pour avoir le dark mode donc BON
-tig tres sympa et aussi gitk qui est bien si on shoauite avoir des outils qui nous permet de visualise les branche commit etc
+Merci et bon apprentissage avec Git !
