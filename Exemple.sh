@@ -1,5 +1,6 @@
 #!/bin/bash
 
 a=5
+echo "a=${a}"
 
-# Donc la par exemple je cree un programme ou une fonction
+# Ici par exemple je debug en affichant a
