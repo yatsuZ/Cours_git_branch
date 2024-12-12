@@ -6,7 +6,6 @@
   - [Arborescence](#arborescence)
     - [Explication](#explication)
     - [Exercice](#exercice)
-  - [Les commandes Git](#les-commandes-git)
   - [Les opérateurs Bash](#les-opérateurs-bash)
   - [Outils pour mieux manipuler les dépôts Git](#outils-pour-mieux-manipuler-les-dépôts-git)
   - [Conclusion](#conclusion)
@@ -38,6 +37,7 @@ Voici l'arborescence des fichiers dans ce dépôt :
 ├── Outil_pour_git.md
 ├── README.md
 ├── add_commit_push.sh
+├── Exemple.sh
 ├── img
 │   └── ["image pour illustration"]
 └── script
@@ -53,12 +53,14 @@ Voici l'arborescence des fichiers dans ce dépôt :
 - **Le dossier `script`** : contient des scripts :
   - `git` : des scripts concernant les commandes Git.
   - `les_opperateur_bash` : des scripts de démonstration des opérateurs Bash utilisés dans le contexte de Git.
+- **Le fichier `Exemple.sh`** : Il s'agit d'un exemple de fichier de configuration utilisé pour illustrer les différentes branches possibles dans un projet géré avec Git.
 
 ### Exercice
 
 J'ai utilisé ce site pour apprendre et m'exercer à manipuler les branchements : [learningitbranch](https://learngitbranching.js.org/?locale=fr_FR\&NODEMO=).
 
-## Les commandes Git
+
+Afin de mettre en pratique mes connaissances en matière de gestion de branches sur un projet concret (fichier Exemple.sh).## Les commandes Git
 
 Pour voir les principales commandes Git et leur fonctionnement, consultez [Les commandes Git](./Git_cmd.md).
 
