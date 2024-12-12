@@ -21,6 +21,7 @@
 	- [**bisect**](#bisect)
 	- [**tag**](#tag)
 	- [**push avec les origin source:destiner**](#push-avec-les-origin-sourcedestiner)
+	- [**push avec les origin all**](#push-avec-les-origin-all)
 
 
 ## Explication des commandes Git
@@ -68,6 +69,7 @@ Voici un tableau récapitulatif des principales commandes Git, avec des liens re
 | 14    | [`git bisect`](./Git_cmd#bisect)              | Utilise une recherche binaire pour trouver le commit qui a introduit un bug dans le projet.                                                      | [git bisect](https://git-scm.com/docs/git-bisect)                                                 | [`./script/git/git_bisect.sh`](./script/git/git_bisect.sh)      |
 | 15    | [`git tag`](./Git_cmd#tag)               | Crée une étiquette (tag) pour marquer un point spécifique dans l'historique, souvent utilisé pour les versions.                                  | [git tag](https://git-scm.com/docs/git-tag)                                                      | [`./script/git/git_tag.sh`](./script/git/git_tag.sh)             |
 | 16    | [`git push origin`](./Git_cmd#push-avec-les-origin-sourcedestiner)      | Envoie les modifications locales vers un dépôt distant spécifique, souvent avec un nom de branche source et destination.                         | [git push](https://git-scm.com/docs/git-push)                                                     | [`./script/git/git_push_origin.sh`](./script/git/git_push_origin.sh) |
+| 17    | [`git push origin --all`](./Git_cmd#push-avec-les-origin-all)      | Envoie toutes les branches locales vers un dépôt distant spécifique.                         | [git push](https://git-scm.com/docs/git-push)                                                     | [`./script/git/git_push_origin_all.sh`](./script/git/git_push_origin_all.sh) |
 
 
 Voici une version corrigée et améliorée de la section que tu as partagée, avec des ajustements pour améliorer la clarté, la fluidité et la précision.
@@ -253,3 +255,14 @@ git push origin feature-branch:main
 ```
 
 Cela enverra les modifications de la branche locale `feature-branch` vers la branche distante `main`.
+
+## **push avec les origin all**
+
+- `git push origin --all` : Cette commande permet de pousser toutes les branches locales vers le dépôt distant spécifié (`origin`). Elle est utile pour synchroniser l'ensemble des branches locales avec le dépôt distant en une seule commande.
+
+Exemple :  
+```bash
+git push origin --all
+```
+
+Cela enverra toutes les branches locales vers leur équivalent sur le dépôt distant `origin`.
